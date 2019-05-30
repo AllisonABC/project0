@@ -1,10 +1,12 @@
-@charset "UTF-8";
+$color: gold;
+
 @media (max-width: 699px) {
   body {
     background-image: url("blue-green-paint.jpg");
     background-size: cover;
   }
 }
+
 #top {
   text-align: center;
   font-size: 30px;
@@ -13,28 +15,25 @@
 
 #intro {
   font-size: 30px;
-  color: gold;
+  color: $color;
   background-color: lightskyblue;
   border: black solid 3px;
   font-family: "Times New Roman", Times, serif;
 }
-
 #gardening {
-  color: gold;
+  color: $color;
   background-color: lightseagreen;
   border: black solid 3px;
   font-family: "Times New Roman", Times, serif;
 }
-
 #tv {
-  color: gold;
+  color: $color;
   background-color: orangered;
   border: black solid 3px;
   font-family: "Times New Roman", Times, serif;
 }
-
 #books {
-  color: gold;
+  color: $color;
   background-color: forestgreen;
   border: black solid 3px;
   font-family: "Times New Roman", Times, serif;
@@ -46,7 +45,7 @@
 }
 
 a {
-  background-color: gold;
+  background-color: $color;
 }
 
 a:hover {
@@ -54,7 +53,7 @@ a:hover {
 }
 
 a::after {
-  content: "⇒";
+  content: "\21d2";
   font-weight: bold;
 }
 
@@ -78,8 +77,6 @@ ol li {
   font-size: 20px;
 }
 
-ul > li {
+ul>li {
   font-size: 20px;
 }
-
-/*# sourceMappingURL=styles.css.map */

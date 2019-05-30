@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Allison's Webpage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -16,6 +16,12 @@
           background-size: cover;
       }
   }
+      .row > div {
+          padding: 20px;
+          background-color: firebrick;
+          border: 2px solid black;
+          border-collapse: collapse;
+      }
   </style>
 </head>
 <body>
@@ -32,13 +38,23 @@
       <a class="nav-link" href="tv.html">Good TV Series</a>
     </li>
   </ul>
-
+  <p></p>
   <div class="container">
-      <div>My girl kitty, Holly<img src="holly.jpg", width = 200px></div>
-      <div>Holly's brother, Jingle<img src="jingle.jpg", width = 200px></div>
-      <div>My son, Gabe<img src="gabe.jpg", width = 200px></div>
-      <div>My daughter, Nina<img src="nina.jpg", width = 200px></div>
-  </div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6">
+            My girl kitty, Holly<img src="holly.jpg", width = 200px>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            Holly's brother, Jingle<img src="jingle.jpg", width = 200px>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            My son, Gabe<img src="gabe.jpg", width = 200px>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            My daughter, Nina<img src="nina.jpg", width = 200px>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>
