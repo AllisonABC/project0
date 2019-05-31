@@ -1,29 +1,13 @@
-@charset "UTF-8";
 @media (max-width: 699px) {
-  body {
-    background-image: url("blue-green-paint.jpg");
-    background-size: cover;
-  }
+    body {
+        background-image: url("blue-green-paint.jpg");
+        background-size: cover;
+    }
 }
-footer, div div div, div ul > li, div ol li, div h1, th, td, #books, #tv, #gardening, #intro, #top, .error, .warning, .success {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.success {
-  background-color: green;
-}
-
-.warning {
-  background-color: orange;
-}
-
-.error {
-  background-color: red;
-}
-
 #top {
   text-align: center;
   font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #intro {
@@ -31,24 +15,25 @@ footer, div div div, div ul > li, div ol li, div h1, th, td, #books, #tv, #garde
   color: gold;
   background-color: lightskyblue;
   border: black solid 3px;
+  font-family: "Times New Roman", Times, serif;
 }
-
 #gardening {
   color: gold;
   background-color: lightseagreen;
   border: black solid 3px;
+  font-family: "Times New Roman", Times, serif;
 }
-
 #tv {
   color: gold;
   background-color: orangered;
   border: black solid 3px;
+  font-family: "Times New Roman", Times, serif;
 }
-
 #books {
   color: gold;
   background-color: forestgreen;
   border: black solid 3px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .container {
@@ -65,7 +50,7 @@ a:hover {
 }
 
 a::after {
-  content: "⇒";
+  content: "\21d2";
   font-weight: bold;
 }
 
@@ -85,11 +70,10 @@ th {
   background-color: lightseagreen;
 }
 
-div ol li {
-  font-size: 20px;
-}
-div ul > li {
+ol li {
   font-size: 20px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+ul>li {
+  font-size: 20px;
+}
